@@ -121,6 +121,19 @@ def rover_application():
     instructions = []
     rovers = []
 
+    # Provide instructions as user-prompt
+    print(
+        "Please enter the rover instructions as individual lines of text. The "
+        "first will be taken as the plateau limits (top-right of the grid as "
+        "the origin is bottom-left at 0, 0)."
+    )
+    print(
+        "All subsequent commands will be "
+        "taken as pairs of rover instructions, with the first being a new "
+        "rovers position and orientation (x, y, d) and the next being the "
+        "movements expected by the rover. Enjoy."
+    )
+    print("Enter a blank line to complete input and run the program.")
     # The application run, where inputs are tendered
     while not complete:
         entry = input()
