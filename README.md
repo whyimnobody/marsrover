@@ -1,5 +1,5 @@
 # MMMMMMAAAAAAARRRRRRRRRRSSSSSSSSSS
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![](https://img.shields.io/badge/python-3.5+-blue.svg)](https://www.python.org/download/releases/3.5.0/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Instructions
 https://code.google.com/archive/p/marsrovertechchallenge/
@@ -17,13 +17,17 @@ Let [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) do the heavy lifting
 
 `pipenv install`
 
+Now run the script inside the virtualenv!
+
+`python rover.py`
+
 ## Bare Metal Usage
-It's a simple script! No installations, just a requirement of python 3.5 and you can run it using the example command below.
+It's a simple script! No installations, just a requirement of python 3.5+ and you can run it using the example command below.
 
 _Requirements_
 - python 3.5+
 
-_Example_\
+_Example_ \
 `python rover.py`
 
 ## Tests

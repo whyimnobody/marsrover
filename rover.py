@@ -114,7 +114,7 @@ def execute_rover_commands(commands):
     return rovers
 
 
-def main_rover_application():
+def rover_application():
     """Provide a loop for user to input rover commands"""
 
     complete = False
@@ -143,3 +143,7 @@ def main_rover_application():
     # Display final rover position and orientation for each rover
     for rover in rovers:
         print(f"{rover.x_position} {rover.y_position} {rover.orientation}")
+
+
+if __name__ == "__main__":
+    rover_application()
